@@ -1,0 +1,41 @@
+Python Machine Learning Process
+- Import the Data. (This can come in many ways)
+- Clean the data. (Fix problems, add data to missing columns etc)
+- Split the data into two sets. (Training and Testing) 
+- Create a model , Use built in algorithms. Eg. this could be decision trees.  
+- Train the model
+- Make Predictions - These can often be inaccurate so we need to ensure 
+- Evaluate and Improve the model as the evaluations can be wrong. 
+
+
+Libraries (Popular)
+- numpy (multi dimensions arrays)
+- pandas (data frames, rows and columns)
+- MatPlotLib (IGraphs and Plots)
+- SciKit-Learn (Algorithms like decision trees)
+
+
+Using Jupyter
+- Using Anaconda (Used Anaconda )
+- Makes it easier to inspect data.
+
+
+Starting the notebook server
+- Command in terminal to start *** jupyter notebook
+- This needs to be completed inside the anaconda prompt terminal
+
+
+Download a data set
+- Kaggle.com 
+
+
+Pandas Data Frames Project
+import pandas as pd
+df = pd.read_csv('vgsales.csv')
+df.shape
+
+
+Shortcuts 
+- You can use H to show all the shortcuts that can be used in jupyter
+- A will create a row above. B will create a row Below
+- There is also intellisense so you can use tab to see what methods are available to use. 
